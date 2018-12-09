@@ -1,6 +1,3 @@
-# Build all branches, *including* gh-pages:
-branches: all
-
 language: cpp       # на практике разницы между специфичным для C++ окружением
                     # и, скажем, python -- никакой. Но пусть будет cpp.
 
