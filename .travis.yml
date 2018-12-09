@@ -2,7 +2,3 @@ language: cpp
 compiler:
   - clang
   - gcc
-
-install: make get-deps
-
-make && make makefile
