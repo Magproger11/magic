@@ -1,7 +1,15 @@
 # Build all branches, *including* gh-pages:
 branches: all
 
-language: cpp
+language: cpp       # на практике разницы между специфичным для C++ окружением
+                    # и, скажем, python -- никакой. Но пусть будет cpp.
+
+os:
+    # будем прогонять CI и на Linux, и на Mac OS X...
+    - linux
+    - osx
+
 compiler:
-  - clang
-  - gcc
+    # ... и с помощью GCC, и Clang
+    - gcc
+    - clang
