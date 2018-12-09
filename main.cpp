@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-void main()
+int main()
 { 
 	cout<< "Hello Word!"<<endl;
+	
+	return 0;
 }
